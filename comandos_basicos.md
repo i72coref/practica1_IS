@@ -19,3 +19,8 @@
 - Listado de Configuración
 
 `git config list`
+
+##Los tres estados de git
+
+![estados de git](https://git-scm.com/figures/18333fig0106-tn.png)
+
