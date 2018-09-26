@@ -1,4 +1,4 @@
-##Comandos GitHub I
+## Comandos GitHub I
 - Añadir repositorio remoto:
 
  `git remote add origin url`
@@ -17,7 +17,7 @@
 
  `git pull`
 
-##Comandos GitHub II
+## Comandos GitHub II
 - Ver branches remotos:
 
  `git branch -r`
@@ -29,7 +29,7 @@
 
  `git clone url`
 
-##Dar seguimiento a _branches_ remotos
+## Dar seguimiento a _branches_ remotos
 - **LOCAL → REMOTO:**
 1. Cambios en el repositorio local.
 2. Commit de los cambios.
@@ -44,8 +44,8 @@
  ~~~
  - En un solo paso:
  `git pull`
- 
-##Operaciones con _branches_ remotos
+
+## Operaciones con _branches_ remotos
  - Creación:
    1. Crear branch local.
    2. Hacer cambios en dicho branch.
