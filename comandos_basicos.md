@@ -6,19 +6,19 @@
 
 - Correo electronico:
 
-`git config --global user.email aduran@uco.es`
+ `git config --global user.email aduran@uco.es`
 
 - Editor de texto:
 
-`git config --global core.editor "gedit"`
+ `git config --global core.editor "gedit"`
 
 - Color de la interfaz
 
-`git config --global color.ui true`
+ `git config --global color.ui true`
 
 - Listado de Configuración
 
-`git config list`
+ `git config list`
 
 ##Los tres estados de git
 
@@ -112,3 +112,23 @@ git mv antiguo nuevo
 - Revertir un commit:
 
  `git revert <id_commit>`
+
+##Comandos Básicos V
+
+- Deshacer multiples cambios con el repositorio:
+
+~~~
+ git reset --soft <id_commit>
+ git reset --mixed <id_commit>
+ git reset --hard <id_commit>
+~~~
+
+- Listar archivos que git no controla:
+
+ `git clean -n`
+
+-Eliminar archivos que git no controla:
+
+ `git clean -f`
+
+- Ignorar archivos en el repositorio: .gitignore
