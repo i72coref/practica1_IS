@@ -1,4 +1,6 @@
-## Configuracion Básica
+# Práctica 1. Ingeniería del Software **(UCO)**
+
+## Configuración Básica
 
 - Nombre del administrador:
 
