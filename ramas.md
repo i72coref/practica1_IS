@@ -1,10 +1,10 @@
-##Ramas o *Branches*
+## Ramas o *Branches*
 
 * Es la forma para separar la línea actual de desarrollo con respecto a la principal. Normalmente representa versiones del software que poeteriormente son integradas a la línea principal.
 
 ![](https://uialberto.files.wordpress.com/2016/11/gitflowui.png?w=616&h=381)
 
-##Comandos Ramas I
+## Comandos Ramas I
 * Ver listado de ramas:
 
  `git branch`
@@ -20,7 +20,7 @@
 * Crear una rama y moverse en un paso:
  `git checkout -b nombre_rama`
 
-##Comandos Ramas II
+## Comandos Ramas II
 
 * Ver ramas idénticas a la actual
 
@@ -45,7 +45,7 @@ git branch -D nombre_rama
 
  `git merge --abort`
 
-##Comandos Ramas III
+## Comandos Ramas III
 
 * Almacenar cambios temporales:
 
