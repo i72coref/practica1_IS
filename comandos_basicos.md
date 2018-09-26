@@ -69,3 +69,24 @@
  `git estatus`
 
 ##Comandos Básicos III
+
+- Ver diferencia entre ficheros en el directorio y el repositorio de git:
+
+ `git diff`
+
+- Ver diferencia entre ficheros en el *staging* y  el repositorio:
+
+ `git diff staged`
+
+- Eliminar archivos:
+
+~~~
+git rm archivo
+git commit -m "Mensaje"
+~~~
+
+- Mover o renombrar archibos:
+
+~~~
+git mv antiguo nuevo
+~~~
